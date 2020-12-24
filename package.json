@@ -1,0 +1,27 @@
+{
+  "name": "sam-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack && npm run start",
+    "start": "./node_modules/.bin/webpack-dev-server --open --compress"
+  },
+  "author": "luca mezzalira",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-google-maps": "^8.3.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
